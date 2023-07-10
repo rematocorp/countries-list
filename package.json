@@ -1,5 +1,8 @@
 {
   "name": "@remato/countries-list",
-  "version": "1.0.2",
-  "license": "MIT"
+  "version": "1.0.3",
+  "license": "MIT",
+  "description": "A list of countries in json format",
+  "main": "index.js",
+  "types": "index.d.ts"
 }
