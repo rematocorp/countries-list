@@ -14,7 +14,7 @@ export type CountryDataType = {
 }
 
 type SalesTax = {
-	type: "vat" | "gst" | null
+	type: 'vat' | 'gst' | null
 	rate: number
 }
 
