@@ -1,1 +1,1 @@
-module.exports = require("./countries.json")
+module.exports = require('./dist/countries.json')
