@@ -1059,7 +1059,7 @@
 		"languages": ["et"],
 		"timezones": ["Europe/Tallinn"],
 		"currency": "€",
-		"salesTax": { "type": "vat", "rate": 0.2 },
+		"salesTax": { "type": "vat", "rate": 0.22 },
 		"boundingBoxSW": [57.5092997, 21.3826069],
 		"boundingBoxNE": [59.9383754, 28.2100175]
 	},
