@@ -1,8 +1,34 @@
 {
-  "name": "@remato/countries-list",
-  "version": "1.0.4",
-  "license": "MIT",
-  "description": "A list of countries in json format",
-  "main": "index.js",
-  "types": "index.d.ts"
+	"name": "@remato/countries-list",
+	"version": "1.0.4",
+	"license": "MIT",
+	"description": "A list of countries in json format",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"scripts": {
+		"generate": "ts-node ./src/generate.ts",
+		"prettier": "prettier --list-different \"**/*.ts\"",
+		"lint": "eslint \"**/*.ts\""
+	},
+	"devDependencies": {
+		"@remato/eslint-config": "^1.12.0",
+		"@remato/prettier-config": "^1.0.0",
+		"@types/node": "^22.0.0",
+		"eslint": "^8.57.0",
+		"prettier": "^3.3.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	},
+	"prettier": "@remato/prettier-config",
+	"eslintConfig": {
+		"extends": [
+			"@remato/eslint-config/typescript"
+		],
+		"ignorePatterns": [
+			"dist"
+		]
+	}
 }
