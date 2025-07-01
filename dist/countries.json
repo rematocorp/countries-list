@@ -148,8 +148,8 @@
         ],
         "currency": "€",
         "salesTax": {
-            "type": null,
-            "rate": 0
+            "type": "vat",
+            "rate": 0.045
         },
         "boundingBoxSW": [
             42.4288238,
@@ -1971,7 +1971,7 @@
         "currency": "€",
         "salesTax": {
             "type": "vat",
-            "rate": 0.22
+            "rate": 0.24
         },
         "boundingBoxSW": [
             57.5092997,
@@ -2136,7 +2136,7 @@
         "currency": "€",
         "salesTax": {
             "type": "vat",
-            "rate": 0.24
+            "rate": 0.255
         },
         "boundingBoxSW": [
             59.4541578,
@@ -3062,7 +3062,7 @@
         "currency": "₪",
         "salesTax": {
             "type": "vat",
-            "rate": 0.17
+            "rate": 0.18
         },
         "boundingBoxSW": [
             29.4533796,
@@ -5569,7 +5569,7 @@
         "currency": "€",
         "salesTax": {
             "type": "vat",
-            "rate": 0.2
+            "rate": 0.23
         },
         "boundingBoxSW": [
             47.7314286,
