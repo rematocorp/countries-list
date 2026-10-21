@@ -118,9 +118,9 @@
     eslint-plugin-vue "^9.27.0"
 
 "@remato/prettier-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@remato/prettier-config/-/prettier-config-1.0.0.tgz#671a1057ea9613ed3fbfe6e8ef51869a13e41de3"
-  integrity sha512-b6E3LmgaMlaGS2EfZXsncifqcLWffmki4tel+oTEpNA+e0X4AD4OLw0yke0El3YriBQaZu9TPKb7eEEbGvxwZg==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@remato/prettier-config/-/prettier-config-1.1.0.tgz#3002e429f1f3c1b50bddd1a616db0b0dc370c5f6"
+  integrity sha512-hZoYpOy2WPggxkD4RWHFGruVgU64mbuu1OO47DjjGykB09C19VQvuUBuNH/xHH5y7O9oUckmATtpH7hMKhGe3g==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.11"
